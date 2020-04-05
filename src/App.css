@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+/* Table Css*/
+.ag-theme-balham {
+	font-family: "Poppins" !important;
+	font-size: 0.813rem !important;
+	border: 0px !important;
+}
+.ag-theme-balham .ag-header-cell-label .ag-header-cell-text {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-weight: 700;
+	color: #44677b !important;
+	font-family: "Poppins" !important;
+	font-size: 0.813rem;
+	text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ag-theme-balham .ag-header-row {
+	border: none;
+	background-color: #ecf0f2 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* .ag-theme-balham .ag-row:not(.ag-row-first) {
+	border-width: 1px 0 0;
+	background-color: white;
+	font-size: 0.813rem;
+} */
+
+.ag-theme-balham .ag-root {
+	/* border: none !important; */
+	box-shadow: none !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ag-theme-balham .ag-status-bar {
+	border: none !important;
 }
 
-.App-link {
-  color: #61dafb;
+.ag-theme-balham .ag-header-group-cell-label span {
+	font-weight: bold;
+	font-family: "Poppins" !important;
+	color: #44677b;
+	font-size: 0.813rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ag-theme-balham .ag-header-cell,
+.ag-theme-balham .ag-header-group-cell {
+	border: 1px solid #f4f4f4;
+}
+
+.ag-theme-balham .ag-ltr .ag-cell {
+	border-right: 1px solid lightgray !important;
+}
+/* Modal*/
+.modal-content {
+	width: 110%;
+}
+
+.color-blue {
+	color: #44677b;
+}
+.font-size-14 {
+	font-size: 0.875rem;
+}
+.font-bold {
+	font-weight: 800;
 }
